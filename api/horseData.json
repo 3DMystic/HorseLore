@@ -1,0 +1,34 @@
+{
+    "breed": [
+        {
+            "breed": "Arabian",
+            "color": ["Bay", "Gray", "Chestnut"],
+            "size": "14.1-15.1 hands",
+            "origin": "Middle East",
+            "temperament": "Intelligent, spirited, and energetic",
+            "lifespan": "25-30 years",
+            "image": "https://example.com/images/arabian.jpg",
+            "description": "The Arabian horse is one of the oldest and most recognizable horse breeds in the world. Known for its endurance and agility, it has a distinctive head shape and high tail carriage."
+        },
+        {
+            "breed": "Thoroughbred",
+            "color": ["Bay", "Chestnut", "Black", "Gray"],
+            "size": "15.2-17.0 hands",
+            "origin": "England",
+            "temperament": "Energetic, bold, and spirited",
+            "lifespan": "25-30 years",
+            "image": "https://example.com/images/thoroughbred.jpg",
+            "description": "The Thoroughbred is a breed best known for its use in horse racing. They are known for their speed, agility, and spirit, making them one of the most popular horse breeds worldwide."
+        },
+        {
+            "breed": "Clydesdale",
+            "color": ["Bay", "Black", "Brown", "Gray"],
+            "size": "16.0-18.0 hands",
+            "origin": "Scotland",
+            "temperament": "Gentle, calm, and friendly",
+            "lifespan": "15-20 years",
+            "image": "https://example.com/images/clydesdale.jpg",
+            "description": "Clydesdales are a breed of draft horse known for their large size and strength. They are often used for heavy work and are famous for their distinctive feathering on the lower legs."
+        }
+    ]
+}
