@@ -1,0 +1,105 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #F5F0E1;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #8B5E3C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem;
+}
+
+.nav {
+    background-color: #F5F0E1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.navList {
+    position: absolute;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #F5F0E1;
+    padding: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    margin-top: 1.2rem;
+    margin-left: -1rem;
+}
+
+nav {
+    display: none;
+}
+
+.quote-container {
+    background-image: url('../images/horses-running.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 1rem 2rem 3.5rem;
+    height: 25vh;
+    max-width: 500px;
+    margin: 1rem auto;
+    color: white;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+}
+
+.intro {
+    background-color: #3E3E3E;
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem auto;
+    color: white;
+}
+
+.intro h2 {
+    margin-bottom: 0.5rem;
+}
+
+.features {
+    background-color: #A3B18A;
+    margin: 1rem;
+}
+
+.features h3,
+.features p {
+    margin-top: 0.5rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.breeds,
+.history {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #3E3E3E;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

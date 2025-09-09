@@ -1,5 +1,4 @@
 const express = require('express');
-const { fstat } = require('fs');
 const app = express();
 const PORT = 8080;
 const fs = require('fs');
@@ -11,10 +10,7 @@ const path = require('path');
 app.use(express.static('../public'));
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send("Welcome to the Horse Data API");
-});
-
+// display api data
 app.get('/api/horseData', (req, res) => {
     res.json(horseData);
 });
