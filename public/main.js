@@ -1,3 +1,5 @@
+
+
 const mobileNav = document.querySelector('.mobileNav');
 
 mobileNav.addEventListener('click', () => {
@@ -8,3 +10,4 @@ mobileNav.addEventListener('click', () => {
         navMenu.style.display = "none";
     }
 });
+
